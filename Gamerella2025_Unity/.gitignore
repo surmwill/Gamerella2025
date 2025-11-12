@@ -75,10 +75,6 @@ crashlytics-build.properties
 # Rider
 .idea
 
-# DOTween
-/[Aa]ssets/DOTween
-/[Aa]ssets/DOTween.meta
-
 # Resources
 /[Aa]ssets/Resources
 /[Aa]ssets/Resources.meta
