@@ -19,7 +19,8 @@ public class LevelManager : Singleton<LevelManager>
 
     public int CurrentLevelIndex { get; private set; } = -1;
     
-    private Level _currentLevel;
+    public Level CurrentLevel { get; private set; }
+    
     private RectTransform _currentUI;
 
     protected override void Awake()
@@ -36,7 +37,7 @@ public class LevelManager : Singleton<LevelManager>
         CurrentLevelIndex = indexLevel;
         _mainMenu.Show(false);
         
-        _currentLevel = Instantiate(_levelPrefabs[indexLevel], _levelRoot);
+        CurrentLevel = Instantiate(_levelPrefabs[indexLevel], _levelRoot);
         _currentUI = Instantiate(_levelUiPrefabs[indexLevel], _levelUIRoot);
     }
 
@@ -48,7 +49,7 @@ public class LevelManager : Singleton<LevelManager>
         }
         CurrentLevelIndex = -1; 
         
-        Destroy(_currentLevel.gameObject);
+        Destroy(CurrentLevel.gameObject);
         Destroy(_currentUI.gameObject);
     }
 
