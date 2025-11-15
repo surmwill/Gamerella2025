@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 4848618276492432679}
   - component: {fileID: 5008708379815536252}
   m_Layer: 0
-  m_Name: Test_Elf_Base
+  m_Name: Elf_Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136,3 +136,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Elf
   _elfId: 0
+  _sound:
+    Guid:
+      Data1: -500615199
+      Data2: 1275033588
+      Data3: 1783616179
+      Data4: 1914298094
+    Path: event:/MX/MX_Game

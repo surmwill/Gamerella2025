@@ -11,6 +11,8 @@ public class Elf : MonoBehaviour
     [SerializeField]
     private EventReference _sound = default;
 
+    public ElfId ElfId => _elfId;
+
     private EventInstance _soundInstance;
 
     public void PlaySound()

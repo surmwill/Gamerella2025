@@ -1,4 +1,6 @@
-﻿using Game;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Game;
 using UnityEngine;
 
 public class Level : MonoBehaviour
@@ -9,36 +11,54 @@ public class Level : MonoBehaviour
     [SerializeField]
     private ElfId[] _requiredElves = null;
 
+    private readonly List<Elf> _elves = new();
+
     public void RemoveElf(Elf elf)
     {
-        PauseTrack();
+        StopTrack();
         Destroy(elf.gameObject);
+        _elves.Remove(elf);
     }
 
     public void AddElf(Elf elfPrefab)
     {
-        PauseTrack();
+        StopTrack();
         
         Transform nextOpenPosition = GetNextOpenPosition();
         if (nextOpenPosition != null)
         {
-            Instantiate(elfPrefab, nextOpenPosition);   
+            _elves.Add(Instantiate(elfPrefab, nextOpenPosition));   
         }
     }
-
-    private void PauseTrack()
+    
+    public bool PlayAndValidateTrack()
     {
-        
+        PlayTrack();
+        return IsValidTrack();
     }
 
-    public void ValidateTrack()
+    private void PlayTrack()
     {
-        
+        _elves.ForEach(elf => elf.PlaySound());
     }
 
-    private void PlayMusic()
+    private void StopTrack()
     {
-        
+        _elves.ForEach(elf => elf.StopSound());
+    }
+
+    private bool IsValidTrack()
+    {
+        HashSet<ElfId> requiredElves = new HashSet<ElfId>(_requiredElves);
+        foreach (ElfId elfId in _elves.Select(elf => elf.ElfId))
+        {
+            if (!requiredElves.Remove(elfId))
+            {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     private Transform GetNextOpenPosition()
