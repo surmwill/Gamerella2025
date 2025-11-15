@@ -1,25 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9008991966666777401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: ../Audio Engine - GAMEJAM/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638988403832072551
-  FileSizes:
-  - Name: Desktop
-    Value: 760
-  Exists: 1
 --- !u!114 &-8334689108856185392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,7 +19,7 @@ MonoBehaviour:
     Data3: 1783616179
     Data4: 1914298094
   Banks:
-  - {fileID: 1411019272792107712}
+  - {fileID: 2686180954068136552}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -60,18 +40,38 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EventCache
   EditorBanks:
-  - {fileID: -9008991966666777401}
-  - {fileID: 1411019272792107712}
+  - {fileID: 769575619164962795}
+  - {fileID: 2686180954068136552}
   EditorEvents:
   - {fileID: -8334689108856185392}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 1411019272792107712}
+  - {fileID: 2686180954068136552}
   StringsBanks:
-  - {fileID: -9008991966666777401}
-  cacheTime: 638988403832072551
+  - {fileID: 769575619164962795}
+  cacheTime: 638988253476032790
   cacheVersion: 131618
---- !u!114 &1411019272792107712
+--- !u!114 &769575619164962795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../FMOD - Unity Bank/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638988253476032790
+  FileSizes:
+  - Name: 
+    Value: 760
+  Exists: 1
+--- !u!114 &2686180954068136552
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -83,11 +83,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.bank
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: ../Audio Engine - GAMEJAM/Build/Desktop/Master.bank
+  Path: ../FMOD - Unity Bank/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638988403832052525
+  lastModified: 638988253476032790
   FileSizes:
-  - Name: Desktop
+  - Name: 
     Value: 211200
   Exists: 1
