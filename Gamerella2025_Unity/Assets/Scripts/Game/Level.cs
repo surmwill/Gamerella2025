@@ -36,6 +36,11 @@ public class Level : MonoBehaviour
         
     }
 
+    private void PlayMusic()
+    {
+        
+    }
+
     private Transform GetNextOpenPosition()
     {
         foreach (Transform position in _positions)
