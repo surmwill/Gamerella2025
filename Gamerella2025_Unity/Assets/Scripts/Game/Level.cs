@@ -13,6 +13,11 @@ public class Level : MonoBehaviour
 
     private readonly List<Elf> _elves = new();
 
+    public bool CanAddElf(ElfId elfId)
+    {
+        return _elves.All(elf => elf.ElfId != elfId);
+    }
+
     public void RemoveElf(Elf elf)
     {
         StopTrack();
