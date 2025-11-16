@@ -13,9 +13,9 @@ public class Level : MonoBehaviour
 
     private readonly List<Elf> _elves = new();
 
-    public bool CanAddElf(ElfId elfId)
+    public bool HasElf(ElfId elfId)
     {
-        return _elves.All(elf => elf.ElfId != elfId);
+        return _elves.Any(elf => elf.ElfId == elfId);
     }
 
     public void RemoveElf(ElfId elfId)

@@ -7,7 +7,7 @@ public class SelectElf : MonoBehaviour
     private Elf _elfPrefab = null;
 
     [SerializeField]
-    private Image _selectIcon = null;
+    private Image _addIcon = null;
 
     [SerializeField]
     private Image _deleteIcon = null;
@@ -15,26 +15,26 @@ public class SelectElf : MonoBehaviour
     [SerializeField]
     private Button _selectElfButton = null;
 
-    public void AddElf()
-    {
-        if (LevelManager.Instance.CurrentLevel.CanAddElf(_elfPrefab.ElfId))
-        {
-            LevelManager.Instance.CurrentLevel.AddElf(_elfPrefab);
-        }
-    }
+    private Level CurrentLevel => LevelManager.Instance.CurrentLevel;
 
-    public void RemoveElf()
+    public void AddOrRemoveElf()
     {
-        
+        if (CurrentLevel.HasElf(_elfPrefab.ElfId))
+        {
+            CurrentLevel.RemoveElf(_elfPrefab.ElfId);
+        }
+        else
+        {
+            CurrentLevel.AddElf(_elfPrefab);
+        }
     }
 
     private void Update()
     {
-        bool canAddElf = LevelManager.Instance.CurrentLevel.CanAddElf(_elfPrefab.ElfId);
-
-        _selectElfButton.interactable = canAddElf;
-        _selectElfButton.targetGraphic = canAddElf ? _selectIcon : _deleteIcon;
+        bool canAddElf = !CurrentLevel.HasElf(_elfPrefab.ElfId);
         
-        _selectElfButton.interactable = LevelManager.Instance.CurrentLevel.CanAddElf(_elfPrefab.ElfId);
+        _selectElfButton.targetGraphic = canAddElf ? _addIcon : _deleteIcon;
+        _addIcon.gameObject.SetActive(canAddElf);
+        _deleteIcon.gameObject.SetActive(!canAddElf);
     }
 }
