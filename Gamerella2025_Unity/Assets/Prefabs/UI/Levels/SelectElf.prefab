@@ -163,6 +163,7 @@ GameObject:
   - component: {fileID: 8490821977003894130}
   - component: {fileID: 7618571479935694511}
   - component: {fileID: 2256522089778551615}
+  - component: {fileID: 379010252327401891}
   m_Layer: 0
   m_Name: SelectElf
   m_TagString: Untagged
@@ -285,6 +286,25 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &379010252327401891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6913388367881885067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f01e2aae4cf36840933d8c3a0f9297b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonAudio
+  _event:
+    Guid:
+      Data1: -349896611
+      Data2: 1237048861
+      Data3: -2059994186
+      Data4: 693938798
+    Path: event:/UI/Menu/ui_menu_select
 --- !u!1 &8652335825801659928
 GameObject:
   m_ObjectHideFlags: 0
