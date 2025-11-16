@@ -27,5 +27,14 @@
         Elf_Level2_Drums = 22,
         Elf_Level2_Lead = 24,
         Elf_Level2_MainChords = 25,
+        Elf_Level2_Percbell = 26,
+        Elf_Level2_Bell = 27,
+        
+        Elf_Level2_Bass_Wrong = 28,
+        Elf_Level2_Bell_Wrong = 29,
+        Elf_Level2_Drums_Wrong = 30,
+        Elf_Level2_Lead_Wrong = 31,
+        Elf_Level2_MainChords_Wrong = 32
+        
     }
 }
