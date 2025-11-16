@@ -19,7 +19,7 @@ MonoBehaviour:
     Data3: 1783616179
     Data4: 1914298094
   Banks:
-  - {fileID: -1068709633747857033}
+  - {fileID: 2686180954068136552}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -27,26 +27,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 16752
---- !u!114 &-1068709633747857033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: ../FMOD - Unity Bank/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638988263871745531
-  FileSizes:
-  - Name: 
-    Value: 211200
-  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,18 +40,18 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EventCache
   EditorBanks:
-  - {fileID: 1810596042235863496}
-  - {fileID: -1068709633747857033}
+  - {fileID: 769575619164962795}
+  - {fileID: 2686180954068136552}
   EditorEvents:
   - {fileID: -8334689108856185392}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -1068709633747857033}
+  - {fileID: 2686180954068136552}
   StringsBanks:
-  - {fileID: 1810596042235863496}
-  cacheTime: 638988263871801369
+  - {fileID: 769575619164962795}
+  cacheTime: 638988253476032790
   cacheVersion: 131618
---- !u!114 &1810596042235863496
+--- !u!114 &769575619164962795
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -86,8 +66,28 @@ MonoBehaviour:
   Path: ../FMOD - Unity Bank/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638988263871801369
+  lastModified: 638988253476032790
   FileSizes:
   - Name: 
     Value: 760
+  Exists: 1
+--- !u!114 &2686180954068136552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../FMOD - Unity Bank/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638988253476032790
+  FileSizes:
+  - Name: 
+    Value: 211200
   Exists: 1

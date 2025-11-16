@@ -4946,6 +4946,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5008708379815536252, guid: 44a82afcbb9cb014caf4d69c7af4fe6a, type: 3}
+      propertyPath: _elfId
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 6099002743466990199, guid: 44a82afcbb9cb014caf4d69c7af4fe6a, type: 3}
       propertyPath: m_Name
       value: Elf_drum_03

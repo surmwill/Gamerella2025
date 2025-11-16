@@ -4,6 +4,9 @@ public class LevelManager : Singleton<LevelManager>
 {
     [SerializeField]
     private MainMenu _mainMenu = null;
+
+    [SerializeField]
+    private GameObject _endScreen = null;
     
     [SerializeField]
     private Transform _levelRoot = null;
@@ -15,7 +18,7 @@ public class LevelManager : Singleton<LevelManager>
     private Transform _levelUIRoot = null;
 
     [SerializeField]
-    private RectTransform[] _levelUiPrefabs = null;
+    private RectTransform[] _levelUIPrefabs = null;
 
     public int CurrentLevelIndex { get; private set; } = -1;
     
@@ -26,7 +29,23 @@ public class LevelManager : Singleton<LevelManager>
     protected override void Awake()
     {
         base.Awake();
+        
         ShowMenu(true);
+        ShowEndScreen(false);
+    }
+
+    public void LoadNextLevel()
+    {
+        int nextLevelIndex = CurrentLevelIndex + 1;
+        if (nextLevelIndex >= _levelPrefabs.Length)
+        {
+            CleanupCurrentLevel();
+            ShowEndScreen(true);
+        }
+        else
+        {
+            LoadLevelIndex(nextLevelIndex);
+        }
     }
 
     public void LoadLevelIndex(int indexLevel)
@@ -38,7 +57,7 @@ public class LevelManager : Singleton<LevelManager>
         _mainMenu.Show(false);
         
         CurrentLevel = Instantiate(_levelPrefabs[indexLevel], _levelRoot);
-        _currentUI = Instantiate(_levelUiPrefabs[indexLevel], _levelUIRoot);
+        _currentUI = Instantiate(_levelUIPrefabs[indexLevel], _levelUIRoot);
     }
 
     public void CleanupCurrentLevel()
@@ -53,8 +72,14 @@ public class LevelManager : Singleton<LevelManager>
         Destroy(_currentUI.gameObject);
     }
 
+    public void ShowEndScreen(bool isShown)
+    {
+        _endScreen.SetActive(isShown);
+    }
+
     public void ShowMenu(bool isShown, bool showClose = false)
     {
+        ShowEndScreen(false);
         _mainMenu.Show(isShown, showClose);
     }
 }
