@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3079312967106317116, guid: affb1b2dce26da442a5f5cdd8801f002, type: 3}
       propertyPath: _targetTrackEvent.Path
-      value: event:/AMB/amb_stage3
+      value: event:/MX/All/mx_stage3_all
       objectReference: {fileID: 0}
     - target: {fileID: -3079312967106317116, guid: affb1b2dce26da442a5f5cdd8801f002, type: 3}
       propertyPath: '_positions.Array.data[3]'
@@ -66,19 +66,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3079312967106317116, guid: affb1b2dce26da442a5f5cdd8801f002, type: 3}
       propertyPath: _targetTrackEvent.Guid.Data1
-      value: -171294296
+      value: -2106826516
       objectReference: {fileID: 0}
     - target: {fileID: -3079312967106317116, guid: affb1b2dce26da442a5f5cdd8801f002, type: 3}
       propertyPath: _targetTrackEvent.Guid.Data2
-      value: 1199825893
+      value: 1115929691
       objectReference: {fileID: 0}
     - target: {fileID: -3079312967106317116, guid: affb1b2dce26da442a5f5cdd8801f002, type: 3}
       propertyPath: _targetTrackEvent.Guid.Data3
-      value: 847451290
+      value: -203363673
       objectReference: {fileID: 0}
     - target: {fileID: -3079312967106317116, guid: affb1b2dce26da442a5f5cdd8801f002, type: 3}
       propertyPath: _targetTrackEvent.Guid.Data4
-      value: -106259707
+      value: 1172256414
       objectReference: {fileID: 0}
     - target: {fileID: 4169352237977340455, guid: affb1b2dce26da442a5f5cdd8801f002, type: 3}
       propertyPath: m_LocalPosition.x

@@ -764,11 +764,11 @@ MonoBehaviour:
   _requiredElves: 01000000020000000300000004000000
   _targetTrackEvent:
     Guid:
-      Data1: 546048011
-      Data2: 1331063143
-      Data3: -1072758140
-      Data4: -1989425016
-    Path: event:/AMB/amb_stage1
+      Data1: -395397176
+      Data2: 1322099848
+      Data3: -468229719
+      Data4: 274187053
+    Path: event:/MX/All/mx_stage1_all
 --- !u!1 &7452709313724401467
 GameObject:
   m_ObjectHideFlags: 0
