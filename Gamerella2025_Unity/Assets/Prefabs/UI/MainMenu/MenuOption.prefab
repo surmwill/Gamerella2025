@@ -163,6 +163,7 @@ GameObject:
   - component: {fileID: 9026336615025833016}
   - component: {fileID: 505958649246368774}
   - component: {fileID: 7561256321813275716}
+  - component: {fileID: 6549612316963898272}
   m_Layer: 0
   m_Name: MenuOption
   m_TagString: Untagged
@@ -263,6 +264,25 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &6549612316963898272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5964606446373856978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f01e2aae4cf36840933d8c3a0f9297b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonAudio
+  _event:
+    Guid:
+      Data1: 1790889186
+      Data2: 1307979504
+      Data3: -1113471870
+      Data4: -693018135
+    Path: event:/UI/Menu/ui_menu_open
 --- !u!1 &7362197487104571385
 GameObject:
   m_ObjectHideFlags: 0
