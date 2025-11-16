@@ -1282,6 +1282,7 @@ GameObject:
   - component: {fileID: 619842724150351295}
   - component: {fileID: 8715016947590489349}
   - component: {fileID: 1269472561860531765}
+  - component: {fileID: 6238494066938051985}
   m_Layer: 0
   m_Name: CallSanta_Validate_Btn
   m_TagString: Untagged
@@ -1417,6 +1418,25 @@ MonoBehaviour:
   _santaUIRoot: {fileID: 1791841243324117717}
   _santaUIPrefab: {fileID: 2926909368608362617, guid: ae297bfb230ea3c49952032a3628520c, type: 3}
   _isPlayerUsersTrackToggle: {fileID: 8606451689041294279}
+--- !u!114 &6238494066938051985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7923560077393623014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f01e2aae4cf36840933d8c3a0f9297b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonAudio
+  _event:
+    Guid:
+      Data1: -349896611
+      Data2: 1237048861
+      Data3: -2059994186
+      Data4: 693938798
+    Path: event:/UI/Menu/ui_menu_select
 --- !u!1 &8072582211869683216
 GameObject:
   m_ObjectHideFlags: 0
