@@ -771,9 +771,13 @@ MonoBehaviour:
   _levelRoot: {fileID: 270136803}
   _levelPrefabs:
   - {fileID: -3079312967106317116, guid: affb1b2dce26da442a5f5cdd8801f002, type: 3}
+  - {fileID: 2211595667495086519, guid: d9875934865411f4c948b9dacc0d209a, type: 3}
+  - {fileID: 7877839983894514580, guid: 37054a3405e99c1459544d395987c7fb, type: 3}
   _levelUIRoot: {fileID: 685708393}
   _levelUIPrefabs:
   - {fileID: 2740883644418304199, guid: f170acedc10b0134a94cab1143d02971, type: 3}
+  - {fileID: 6036645113716799284, guid: 596845f3243fe0e4eae06709b4ffbeb9, type: 3}
+  - {fileID: 5044900549430114831, guid: db3f56904cbb62943b59cd1c2fd413d3, type: 3}
 --- !u!1001 &1364010475943661210
 PrefabInstance:
   m_ObjectHideFlags: 0

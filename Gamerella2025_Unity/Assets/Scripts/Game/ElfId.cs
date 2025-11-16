@@ -2,8 +2,10 @@
 {
     public enum ElfId
     {
-        Elf_Level0_Bass = 0,
         Elf_Level0_Drums = 1,
+        Elf_Level0_Bell = 2,
+        Elf_Level0_Synth = 3,
+        Elf_Level0_Synthbass = 4,
         
         Elf_Level1_Bass = 10,
         Elf_Level1_Bells = 11,
@@ -13,10 +15,8 @@
         
         Elf_Level2_Bass = 20,
         Elf_Level2_Chordspad = 21,
-        Elf_Level2_Hat = 22,
-        Elf_Level2_Kick = 23,
+        Elf_Level2_Drums = 22,
         Elf_Level2_Lead = 24,
         Elf_Level2_MainChords = 25,
-        Elf_Level2_Snare = 26,
     }
 }
