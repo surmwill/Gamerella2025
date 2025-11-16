@@ -759,14 +759,15 @@ MonoBehaviour:
   - {fileID: 5332997011103707299}
   - {fileID: 2993645420571692736}
   - {fileID: 4488706054685906938}
-  _requiredElves: 0000000001000000
+  - {fileID: 3412232770866086009}
+  _requiredElves: 01000000020000000300000004000000
   _targetTrackEvent:
     Guid:
-      Data1: -500615199
-      Data2: 1275033588
-      Data3: 1783616179
-      Data4: 1914298094
-    Path: event:/MX/MX_Game
+      Data1: 546048011
+      Data2: 1331063143
+      Data3: -1072758140
+      Data4: -1989425016
+    Path: event:/AMB/amb_stage1
 --- !u!1 &7452709313724401467
 GameObject:
   m_ObjectHideFlags: 0
