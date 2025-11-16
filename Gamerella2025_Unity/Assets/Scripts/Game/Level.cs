@@ -33,6 +33,11 @@ public class Level : MonoBehaviour
         SetPlayUsersTrackToggled(false);
     }
 
+    public bool CanFitElf()
+    {
+        return _elves.Count < _positions.Length;
+    }
+
     public bool HasElf(ElfId elfId)
     {
         return _elves.Any(elf => elf.ElfId == elfId);
