@@ -474,8 +474,7 @@ MonoBehaviour:
   EncryptionKey: 
   ImportType: 0
   TargetAssetPath: FMODBanks
-  TargetBankFolder: C:\Users\louis\OneDrive\Bureau\Game Jam - AUDIO ENGINE\Audio
-    Engine - GAMEJAM\Build
+  TargetBankFolder: Assets/StreamingAssets/FMOD
   EventLinkage: 0
   LoggingLevel: 2
   SpeakerModeSettings: []

@@ -15,6 +15,11 @@ public class Elf : MonoBehaviour
 
     private EventInstance _soundInstance;
 
+    public void SetVolume(float volume)
+    {
+        _soundInstance.setVolume(volume);
+    }
+
     public void PlaySound()
     {
         _soundInstance = RuntimeManager.CreateInstance(_sound);
