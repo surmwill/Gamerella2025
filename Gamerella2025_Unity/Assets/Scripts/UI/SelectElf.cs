@@ -16,6 +16,11 @@ public class SelectElf : MonoBehaviour
     [SerializeField]
     private Button _selectElfButton = null;
 
+    [SerializeField]
+    private CanvasGroup _canvasGroup = null;
+
+    private const float FadeValue = 0.5f;
+
     private Level CurrentLevel => LevelManager.Instance.CurrentLevel;
 
     private void Start()
@@ -42,10 +47,21 @@ public class SelectElf : MonoBehaviour
 
     private void UpdateCanAddElfState()
     {
-        bool canAddElf = !CurrentLevel.HasElf(_elfPrefab.ElfId);
+        bool hasElf = CurrentLevel.HasElf(_elfPrefab.ElfId);
         
-        _selectElfButton.targetGraphic = canAddElf ? _addIcon : _deleteIcon;
-        _addIcon.gameObject.SetActive(canAddElf);
-        _deleteIcon.gameObject.SetActive(!canAddElf);
+        if (!CurrentLevel.CanFitElf() && !hasElf)
+        {
+            _canvasGroup.interactable = false;
+            _canvasGroup.alpha = FadeValue;
+        }
+        else
+        {
+            _canvasGroup.interactable = true;
+            _canvasGroup.alpha = 1.0f;
+        }
+        
+        _selectElfButton.targetGraphic = !hasElf ? _addIcon : _deleteIcon;
+        _addIcon.gameObject.SetActive(!hasElf);
+        _deleteIcon.gameObject.SetActive(hasElf);
     }
 }

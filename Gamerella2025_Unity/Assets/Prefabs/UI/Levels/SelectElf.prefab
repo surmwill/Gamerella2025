@@ -162,6 +162,7 @@ GameObject:
   - component: {fileID: 4675479157491071931}
   - component: {fileID: 8490821977003894130}
   - component: {fileID: 7618571479935694511}
+  - component: {fileID: 2256522089778551615}
   m_Layer: 0
   m_Name: SelectElf
   m_TagString: Untagged
@@ -215,6 +216,7 @@ MonoBehaviour:
   _addIcon: {fileID: 515720549036596725}
   _deleteIcon: {fileID: 780325624686617931}
   _selectElfButton: {fileID: 7618571479935694511}
+  _canvasGroup: {fileID: 2256522089778551615}
 --- !u!114 &7618571479935694511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,6 +273,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!225 &2256522089778551615
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6913388367881885067}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &8652335825801659928
 GameObject:
   m_ObjectHideFlags: 0
