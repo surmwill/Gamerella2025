@@ -205,7 +205,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3115746960891974088}
   - component: {fileID: 7369661321335810367}
-  - component: {fileID: 3751035920177265235}
   m_Layer: 0
   m_Name: MusicButton
   m_TagString: Untagged
@@ -279,7 +278,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3751035920177265235}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ShowMenuButton, Assembly-CSharp
         m_MethodName: ShowMenu
         m_Mode: 6
@@ -291,19 +290,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
---- !u!114 &3751035920177265235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2477873488583836440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8206b8e371004e31983dbcb52a1a3fc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ShowMenuButton
-  _showMenuCloseButton: 1
 --- !u!1 &3700271887117225968
 GameObject:
   m_ObjectHideFlags: 0
