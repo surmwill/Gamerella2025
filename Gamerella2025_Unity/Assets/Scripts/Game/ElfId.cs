@@ -16,6 +16,12 @@
         Elf_Level1_Synthmelo = 13,
         Elf_Level1_Vox = 14,
         
+        Elf_Level1_Bass_Wrong = 15,
+        Elf_Level1_Bells_Wrong = 16,
+        Elf_Level1_Drums_Wrong = 17,
+        Elf_Level1_Synthmelo_Wrong = 18,
+        Elf_Level1_Vox_Wrong = 19,
+        
         Elf_Level2_Bass = 20,
         Elf_Level2_Chordspad = 21,
         Elf_Level2_Drums = 22,
