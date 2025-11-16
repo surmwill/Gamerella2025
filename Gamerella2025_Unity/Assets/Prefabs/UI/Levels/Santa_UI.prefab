@@ -235,7 +235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.41568628}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -341,7 +341,7 @@ PrefabInstance:
     - target: {fileID: 1789443056312809081, guid: 13829306ccacfbf46ad6df21f67b646f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5ba7324888f9b1947b9bf3491a994daf, type: 3}
+      objectReference: {fileID: 21300000, guid: 2aa1711c1bd999341bef4fc6be43c895, type: 3}
     - target: {fileID: 2260955654419432218, guid: 13829306ccacfbf46ad6df21f67b646f, type: 3}
       propertyPath: m_Name
       value: Santa_Happy
@@ -401,11 +401,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 1252779852836866953}
     m_Modifications:
     - target: {fileID: 1529066142187502464, guid: 13829306ccacfbf46ad6df21f67b646f, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529066142187502464, guid: 13829306ccacfbf46ad6df21f67b646f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529066142187502464, guid: 13829306ccacfbf46ad6df21f67b646f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1529066142187502464, guid: 13829306ccacfbf46ad6df21f67b646f, type: 3}
       propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529066142187502464, guid: 13829306ccacfbf46ad6df21f67b646f, type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1529066142187502464, guid: 13829306ccacfbf46ad6df21f67b646f, type: 3}
@@ -423,10 +435,14 @@ PrefabInstance:
     - target: {fileID: 1789443056312809081, guid: 13829306ccacfbf46ad6df21f67b646f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 618f5be477b0c574f9ca275ead53977f, type: 3}
+      objectReference: {fileID: 21300000, guid: b3a3b2dd8d9753a409424b277e32419f, type: 3}
     - target: {fileID: 2260955654419432218, guid: 13829306ccacfbf46ad6df21f67b646f, type: 3}
       propertyPath: m_Name
       value: Santa_Angry
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646188816896335022, guid: 13829306ccacfbf46ad6df21f67b646f, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5646188816896335022, guid: 13829306ccacfbf46ad6df21f67b646f, type: 3}
       propertyPath: m_Color.b
@@ -435,6 +451,10 @@ PrefabInstance:
     - target: {fileID: 5646188816896335022, guid: 13829306ccacfbf46ad6df21f67b646f, type: 3}
       propertyPath: m_Color.g
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646188816896335022, guid: 13829306ccacfbf46ad6df21f67b646f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9008201869995453091, guid: 13829306ccacfbf46ad6df21f67b646f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
