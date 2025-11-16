@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 953511997000285928}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.36, y: 0, z: -0.57}
+  m_LocalPosition: {x: -0.36, y: 0, z: -4.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -186,7 +186,7 @@ Transform:
   m_GameObject: {fileID: 3662017899967993066}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.81, y: 0, z: 0.21}
+  m_LocalPosition: {x: 0.4, y: 0, z: 8.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -378,9 +378,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Level
   _positions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 5332997011103707299}
+  - {fileID: 2993645420571692736}
+  - {fileID: 4488706054685906938}
   _requiredElves: 000000000a00000014000000
   _targetTrackEvent:
     Guid:
