@@ -2,8 +2,11 @@
 
 public class ShowMenuButton : MonoBehaviour
 {
+    [SerializeField]
+    private bool _showMenuCloseButton = true;
+    
     public void ShowMenu(bool isShown)
     {
-        LevelManager.Instance.ShowMenu(isShown, true);
+        LevelManager.Instance.ShowMenu(isShown, _showMenuCloseButton);
     }
 }
