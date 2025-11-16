@@ -7,6 +7,9 @@
         Elf_Level0_Synth = 3,
         Elf_Level0_Synthbass = 4,
         
+        Elf_Level0_Bell_Wrong = 5,
+        Elf_Level0_Synthbass_Wrong = 6,
+        
         Elf_Level1_Bass = 10,
         Elf_Level1_Bells = 11,
         Elf_Level1_Drums = 12,

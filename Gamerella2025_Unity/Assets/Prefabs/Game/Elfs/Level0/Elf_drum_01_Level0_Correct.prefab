@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7672473234567860928, guid: 67c3b3b266b9b59468635f64ff444ee8, type: 3}
       propertyPath: m_Name
-      value: Elf_drum_01_Level0
+      value: Elf_drum_01_Level0_Correct
       objectReference: {fileID: 0}
     - target: {fileID: 8889149999930863307, guid: 67c3b3b266b9b59468635f64ff444ee8, type: 3}
       propertyPath: _elfId
