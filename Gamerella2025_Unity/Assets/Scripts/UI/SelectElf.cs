@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,6 +18,11 @@ public class SelectElf : MonoBehaviour
 
     private Level CurrentLevel => LevelManager.Instance.CurrentLevel;
 
+    private void Start()
+    {
+        UpdateCanAddElfState();
+    }
+
     public void AddOrRemoveElf()
     {
         if (CurrentLevel.HasElf(_elfPrefab.ElfId))
@@ -30,6 +36,11 @@ public class SelectElf : MonoBehaviour
     }
 
     private void Update()
+    {
+        UpdateCanAddElfState();
+    }
+
+    private void UpdateCanAddElfState()
     {
         bool canAddElf = !CurrentLevel.HasElf(_elfPrefab.ElfId);
         

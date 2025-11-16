@@ -62,13 +62,10 @@ public class Level : MonoBehaviour
         HashSet<ElfId> requiredElves = new HashSet<ElfId>(_requiredElves);
         foreach (ElfId elfId in _elves.Select(elf => elf.ElfId))
         {
-            if (!requiredElves.Remove(elfId))
-            {
-                return false;
-            }
+            requiredElves.Remove(elfId);
         }
 
-        return true;
+        return !requiredElves.Any();
     }
 
     private Transform GetNextOpenPosition()

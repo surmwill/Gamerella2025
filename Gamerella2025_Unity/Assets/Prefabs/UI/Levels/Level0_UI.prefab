@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 205331704482540281}
   - component: {fileID: 3388722599123203081}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: VALIDATE
+  m_text: Call Santa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -346,6 +346,7 @@ RectTransform:
   - {fileID: 6242680432222451522}
   - {fileID: 3115746960891974088}
   - {fileID: 941332564479731953}
+  - {fileID: 1791841243324117717}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -469,6 +470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8206b8e371004e31983dbcb52a1a3fc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShowMenuButton
+  _showMenuCloseButton: 1
 --- !u!1 &3700271887117225968
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,6 +687,41 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 360}
   m_Pivot: {x: 0.5, y: 0}
+--- !u!1 &4906866279365423757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791841243324117717}
+  m_Layer: 0
+  m_Name: SantaRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1791841243324117717
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906866279365423757}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2740883644418304199}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &5580213409316868135
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,6 +940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8206b8e371004e31983dbcb52a1a3fc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShowMenuButton
+  _showMenuCloseButton: 1
 --- !u!1 &7559631150461004847
 GameObject:
   m_ObjectHideFlags: 0
@@ -990,6 +1028,7 @@ GameObject:
   - component: {fileID: 2739999120746353103}
   - component: {fileID: 619842724150351295}
   - component: {fileID: 8715016947590489349}
+  - component: {fileID: 1269472561860531765}
   m_Layer: 0
   m_Name: ValidateBtn
   m_TagString: Untagged
@@ -1098,7 +1137,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 619842724150351295}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1269472561860531765}
+        m_TargetAssemblyTypeName: ValidateTrackButton, Assembly-CSharp
+        m_MethodName: ValidateTrack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1269472561860531765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7923560077393623014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4217b8482ec04844bb9bef3468b4eda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ValidateTrackButton
+  _santaUIRoot: {fileID: 1791841243324117717}
+  _santaUIPrefab: {fileID: 2926909368608362617, guid: ae297bfb230ea3c49952032a3628520c, type: 3}
 --- !u!1 &8072582211869683216
 GameObject:
   m_ObjectHideFlags: 0
