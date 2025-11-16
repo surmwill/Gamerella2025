@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7672473234567860928, guid: 2fb96902786a4bb4b9ea3bec9dad7c02, type: 3}
       propertyPath: m_Name
-      value: Elf_bell_02_Level1
+      value: Elf_bell_02_Level1_Correct
       objectReference: {fileID: 0}
     - target: {fileID: 8889149999930863307, guid: 2fb96902786a4bb4b9ea3bec9dad7c02, type: 3}
       propertyPath: _elfId
@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8889149999930863307, guid: 2fb96902786a4bb4b9ea3bec9dad7c02, type: 3}
       propertyPath: _sound.Path
-      value: event:/MX/Stage 2/mx_stage2_bells
+      value: event:/MX/Stage 2/mx_stage2_bells_right
       objectReference: {fileID: 0}
     - target: {fileID: 8889149999930863307, guid: 2fb96902786a4bb4b9ea3bec9dad7c02, type: 3}
       propertyPath: _sound.Guid.Data1

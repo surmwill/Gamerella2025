@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8520940143100811326
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7232060602384818307, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: m_Name
+      value: Elf_bell_02_Level2_Bell_Wrong
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336359450961604563, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336359450961604563, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336359450961604563, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336359450961604563, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336359450961604563, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336359450961604563, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336359450961604563, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336359450961604563, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336359450961604563, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336359450961604563, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465628039603575944, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: _elfId
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465628039603575944, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: _sound.Path
+      value: event:/MX/Stage 3/MX_stage3_bell_wrong
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465628039603575944, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: _sound.Guid.Data1
+      value: -1710739848
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465628039603575944, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: _sound.Guid.Data2
+      value: 1333386392
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465628039603575944, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: _sound.Guid.Data3
+      value: 366208684
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465628039603575944, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}
+      propertyPath: _sound.Guid.Data4
+      value: 1570129809
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c3a39634bc9b81844a5e19cfa967a37a, type: 3}

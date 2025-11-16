@@ -12,6 +12,26 @@ PrefabInstance:
       propertyPath: _elfId
       value: 18
       objectReference: {fileID: 0}
+    - target: {fileID: 809808784562476277, guid: 151c4cd610e27704d8647dffae388613, type: 3}
+      propertyPath: _sound.Path
+      value: event:/MX/Stage 2/mx_stage2_synthmelo_wrong
+      objectReference: {fileID: 0}
+    - target: {fileID: 809808784562476277, guid: 151c4cd610e27704d8647dffae388613, type: 3}
+      propertyPath: _sound.Guid.Data1
+      value: 1802162462
+      objectReference: {fileID: 0}
+    - target: {fileID: 809808784562476277, guid: 151c4cd610e27704d8647dffae388613, type: 3}
+      propertyPath: _sound.Guid.Data2
+      value: 1269562494
+      objectReference: {fileID: 0}
+    - target: {fileID: 809808784562476277, guid: 151c4cd610e27704d8647dffae388613, type: 3}
+      propertyPath: _sound.Guid.Data3
+      value: -1948634495
+      objectReference: {fileID: 0}
+    - target: {fileID: 809808784562476277, guid: 151c4cd610e27704d8647dffae388613, type: 3}
+      propertyPath: _sound.Guid.Data4
+      value: -1663071929
+      objectReference: {fileID: 0}
     - target: {fileID: 1006068349445564334, guid: 151c4cd610e27704d8647dffae388613, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
