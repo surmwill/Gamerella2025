@@ -10,7 +10,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7672473234567860928, guid: 908d70ec0c83ef24f8554e5a131984ca, type: 3}
       propertyPath: m_Name
-      value: Elf_drum_03
+      value: Elf_drum_03_Level2_Snare
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 908d70ec0c83ef24f8554e5a131984ca, type: 3}
+      propertyPath: _elfId
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 908d70ec0c83ef24f8554e5a131984ca, type: 3}
+      propertyPath: _sound.Path
+      value: event:/MX/Stage 3/MX_stage3_snare
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 908d70ec0c83ef24f8554e5a131984ca, type: 3}
+      propertyPath: _sound.Guid.Data1
+      value: 1653609869
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 908d70ec0c83ef24f8554e5a131984ca, type: 3}
+      propertyPath: _sound.Guid.Data2
+      value: 1141360047
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 908d70ec0c83ef24f8554e5a131984ca, type: 3}
+      propertyPath: _sound.Guid.Data3
+      value: -475745346
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 908d70ec0c83ef24f8554e5a131984ca, type: 3}
+      propertyPath: _sound.Guid.Data4
+      value: -1759828968
       objectReference: {fileID: 0}
     - target: {fileID: 9049943653273558416, guid: 908d70ec0c83ef24f8554e5a131984ca, type: 3}
       propertyPath: m_LocalPosition.x
