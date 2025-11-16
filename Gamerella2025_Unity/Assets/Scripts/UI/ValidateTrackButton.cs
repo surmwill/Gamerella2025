@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ValidateTrackButton : MonoBehaviour
 {
@@ -8,10 +9,13 @@ public class ValidateTrackButton : MonoBehaviour
     [SerializeField]
     private SantaUI _santaUIPrefab = null;
     
+    [SerializeField]
+    private Toggle _isPlayerUsersTrackToggle = null;
+    
     public void ValidateTrack()
     {
-        bool isValid = LevelManager.Instance.CurrentLevel.PlayAndValidateTrack();
+        _isPlayerUsersTrackToggle.isOn = true;
         SantaUI santaUI = Instantiate(_santaUIPrefab, _santaUIRoot);
-        santaUI.ShowSanta(isValid ? SantaUI.SantaState.Happy : SantaUI.SantaState.Angry);
+        santaUI.ShowSanta(LevelManager.Instance.CurrentLevel.HasValidUserTrack() ? SantaUI.SantaState.Happy : SantaUI.SantaState.Angry);
     }
 }
