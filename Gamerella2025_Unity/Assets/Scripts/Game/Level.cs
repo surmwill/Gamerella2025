@@ -18,11 +18,16 @@ public class Level : MonoBehaviour
         return _elves.All(elf => elf.ElfId != elfId);
     }
 
-    public void RemoveElf(Elf elf)
+    public void RemoveElf(ElfId elfId)
     {
         StopTrack();
-        Destroy(elf.gameObject);
-        _elves.Remove(elf);
+        
+        Elf elf = _elves.FirstOrDefault(elf => elf.ElfId == elfId);
+        if (elf != null)
+        {
+            Destroy(elf.gameObject);
+            _elves.Remove(elf);   
+        }
     }
 
     public void AddElf(Elf elfPrefab)
