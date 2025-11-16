@@ -10,7 +10,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7672473234567860928, guid: 0073e55f43fa2f84ca766688d6522feb, type: 3}
       propertyPath: m_Name
-      value: Elf_synth_01
+      value: Elf_synth_01_Level2_Bass
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0073e55f43fa2f84ca766688d6522feb, type: 3}
+      propertyPath: _sound.Path
+      value: event:/MX/Stage 3/MX_stage3_bass
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0073e55f43fa2f84ca766688d6522feb, type: 3}
+      propertyPath: _sound.Guid.Data1
+      value: -1800047717
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0073e55f43fa2f84ca766688d6522feb, type: 3}
+      propertyPath: _sound.Guid.Data2
+      value: 1170407222
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0073e55f43fa2f84ca766688d6522feb, type: 3}
+      propertyPath: _sound.Guid.Data3
+      value: 1137202096
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0073e55f43fa2f84ca766688d6522feb, type: 3}
+      propertyPath: _sound.Guid.Data4
+      value: -265026797
       objectReference: {fileID: 0}
     - target: {fileID: 9049943653273558416, guid: 0073e55f43fa2f84ca766688d6522feb, type: 3}
       propertyPath: m_LocalPosition.x

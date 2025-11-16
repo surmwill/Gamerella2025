@@ -10,7 +10,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7672473234567860928, guid: 2fb96902786a4bb4b9ea3bec9dad7c02, type: 3}
       propertyPath: m_Name
-      value: Elf_bell_02
+      value: Elf_bell_02_Level1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 2fb96902786a4bb4b9ea3bec9dad7c02, type: 3}
+      propertyPath: _elfId
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 2fb96902786a4bb4b9ea3bec9dad7c02, type: 3}
+      propertyPath: _sound.Path
+      value: event:/MX/Stage 2/mx_stage2_bells
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 2fb96902786a4bb4b9ea3bec9dad7c02, type: 3}
+      propertyPath: _sound.Guid.Data1
+      value: -483015752
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 2fb96902786a4bb4b9ea3bec9dad7c02, type: 3}
+      propertyPath: _sound.Guid.Data2
+      value: 1087298765
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 2fb96902786a4bb4b9ea3bec9dad7c02, type: 3}
+      propertyPath: _sound.Guid.Data3
+      value: 340237186
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 2fb96902786a4bb4b9ea3bec9dad7c02, type: 3}
+      propertyPath: _sound.Guid.Data4
+      value: 1816631502
       objectReference: {fileID: 0}
     - target: {fileID: 9049943653273558416, guid: 2fb96902786a4bb4b9ea3bec9dad7c02, type: 3}
       propertyPath: m_LocalPosition.x

@@ -10,7 +10,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7672473234567860928, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
       propertyPath: m_Name
-      value: Elf_synth_02
+      value: Elf_synth_02_Level1_SynthMelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
+      propertyPath: _elfId
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
+      propertyPath: _sound.Path
+      value: event:/MX/Stage 2/mx_stage2_synthmelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
+      propertyPath: _sound.Guid.Data1
+      value: -433219483
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
+      propertyPath: _sound.Guid.Data2
+      value: 1211055885
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
+      propertyPath: _sound.Guid.Data3
+      value: 1866193343
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
+      propertyPath: _sound.Guid.Data4
+      value: -1335879154
       objectReference: {fileID: 0}
     - target: {fileID: 9049943653273558416, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
       propertyPath: m_LocalPosition.x

@@ -10,7 +10,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7672473234567860928, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
       propertyPath: m_Name
-      value: Elf_synth_02
+      value: Elf_synth_02_Level2_Chordspad
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
+      propertyPath: _sound.Path
+      value: event:/MX/Stage 3/MX_stage3_chordspad
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
+      propertyPath: _sound.Guid.Data1
+      value: 1034929255
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
+      propertyPath: _sound.Guid.Data2
+      value: 1271108930
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
+      propertyPath: _sound.Guid.Data3
+      value: 196068754
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
+      propertyPath: _sound.Guid.Data4
+      value: -94935500
       objectReference: {fileID: 0}
     - target: {fileID: 9049943653273558416, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
       propertyPath: m_LocalPosition.x
