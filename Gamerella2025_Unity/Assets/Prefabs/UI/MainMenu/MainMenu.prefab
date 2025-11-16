@@ -498,7 +498,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1525717049928565255, guid: c9dbc670ac4e9a04f8b393fd14665703, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -823.34985
+      value: -230.57214
       objectReference: {fileID: 0}
     - target: {fileID: 6326720666734833511, guid: c9dbc670ac4e9a04f8b393fd14665703, type: 3}
       propertyPath: m_Pivot.x
@@ -582,7 +582,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6393985765879668423, guid: c9dbc670ac4e9a04f8b393fd14665703, type: 3}
       propertyPath: m_text
-      value: Credits
+      value: "Credits:\n\nWilliam Surmak - Programmer\nDoussouba Choleau - FX, UI,
+        Environment, Shader (techart)\nElvin Louro- Composer, Sound Designer\nSamuel
+        Debarbat - Composer, Sound Designer\nLouis Robert - Sound Designer, Audio
+        Programmer\nEmma Bouttier - Environment \nIlona Cauchon - Artist 2D, Everything
+        that was not ui in 2D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6393985765879668423, guid: c9dbc670ac4e9a04f8b393fd14665703, type: 3}
+      propertyPath: m_fontSize
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 6393985765879668423, guid: c9dbc670ac4e9a04f8b393fd14665703, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 6563978702617115821, guid: c9dbc670ac4e9a04f8b393fd14665703, type: 3}
       propertyPath: m_Name
@@ -758,6 +770,26 @@ PrefabInstance:
     - target: {fileID: 6163718873086614226, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549612316963898272, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
+      propertyPath: _event.Path
+      value: event:/UI/Menu/ui_it's tiiime
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549612316963898272, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
+      propertyPath: _event.Guid.Data1
+      value: -302982051
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549612316963898272, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
+      propertyPath: _event.Guid.Data2
+      value: 1226040657
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549612316963898272, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
+      propertyPath: _event.Guid.Data3
+      value: 1586912419
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549612316963898272, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
+      propertyPath: _event.Guid.Data4
+      value: 760645412
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -965,11 +997,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1200814390784105182, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 289.31
       objectReference: {fileID: 0}
     - target: {fileID: 1200814390784105182, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 89.38
       objectReference: {fileID: 0}
     - target: {fileID: 3259011632634908197, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
       propertyPath: m_Pivot.x
@@ -985,7 +1017,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3259011632634908197, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3259011632634908197, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
       propertyPath: m_AnchorMin.x
@@ -993,7 +1025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3259011632634908197, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3259011632634908197, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1033,11 +1065,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3259011632634908197, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 868.55115
       objectReference: {fileID: 0}
     - target: {fileID: 3259011632634908197, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -464.35608
       objectReference: {fileID: 0}
     - target: {fileID: 3259011632634908197, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1060,6 +1092,10 @@ PrefabInstance:
     - target: {fileID: 5964606446373856978, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
       propertyPath: m_Name
       value: Settings
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964606446373856978, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6163718873086614226, guid: 6d8e1f681b7b5dd4f8d5bdfc3fff50f7, type: 3}
       propertyPath: m_Type

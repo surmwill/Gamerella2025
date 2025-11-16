@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7672473234567860928, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
       propertyPath: m_Name
-      value: Elf_synth_02_Level1_SynthMelo
+      value: Elf_synth_02_Level1_SynthMelo_Correct
       objectReference: {fileID: 0}
     - target: {fileID: 8889149999930863307, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
       propertyPath: _elfId

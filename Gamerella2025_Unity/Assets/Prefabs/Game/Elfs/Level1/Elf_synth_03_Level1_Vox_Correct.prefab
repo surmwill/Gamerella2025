@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7672473234567860928, guid: f6c82e9024b6f58438c1d86e04f45220, type: 3}
       propertyPath: m_Name
-      value: Elf_synth_03_Level1_Vox
+      value: Elf_synth_03_Level1_Vox_Correct
       objectReference: {fileID: 0}
     - target: {fileID: 8889149999930863307, guid: f6c82e9024b6f58438c1d86e04f45220, type: 3}
       propertyPath: _elfId
