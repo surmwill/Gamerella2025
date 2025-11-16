@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8889149999930863307, guid: 13475969adcb3854286637e3971183f8, type: 3}
       propertyPath: _sound.Path
-      value: event:/MX/Stage 2/mx_stage2_drums
+      value: event:/MX/Stage 2/mx_stage2_drums_right
       objectReference: {fileID: 0}
     - target: {fileID: 8889149999930863307, guid: 13475969adcb3854286637e3971183f8, type: 3}
       propertyPath: _sound.Guid.Data1

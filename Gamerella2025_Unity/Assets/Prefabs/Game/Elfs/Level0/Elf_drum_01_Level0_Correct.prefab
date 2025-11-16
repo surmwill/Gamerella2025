@@ -14,11 +14,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8889149999930863307, guid: 67c3b3b266b9b59468635f64ff444ee8, type: 3}
       propertyPath: _elfId
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8889149999930863307, guid: 67c3b3b266b9b59468635f64ff444ee8, type: 3}
       propertyPath: _sound.Path
-      value: event:/MX/Stage 1/mx_stage1_bass
+      value: event:/MX/Stage 1/mx_stage1_drums_ricght
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 67c3b3b266b9b59468635f64ff444ee8, type: 3}
+      propertyPath: _sound.Guid.Data1
+      value: 1394854622
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 67c3b3b266b9b59468635f64ff444ee8, type: 3}
+      propertyPath: _sound.Guid.Data2
+      value: 1279440041
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 67c3b3b266b9b59468635f64ff444ee8, type: 3}
+      propertyPath: _sound.Guid.Data3
+      value: -1447084902
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889149999930863307, guid: 67c3b3b266b9b59468635f64ff444ee8, type: 3}
+      propertyPath: _sound.Guid.Data4
+      value: -556040860
       objectReference: {fileID: 0}
     - target: {fileID: 9049943653273558416, guid: 67c3b3b266b9b59468635f64ff444ee8, type: 3}
       propertyPath: m_LocalPosition.x

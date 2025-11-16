@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8889149999930863307, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
       propertyPath: _sound.Path
-      value: event:/MX/Stage 2/mx_stage2_synthmelo
+      value: event:/MX/Stage 2/mx_stage2_synthmelo_right
       objectReference: {fileID: 0}
     - target: {fileID: 8889149999930863307, guid: 0a6f5ede278bae6478d4590f398d8922, type: 3}
       propertyPath: _sound.Guid.Data1
